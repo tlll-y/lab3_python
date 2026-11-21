@@ -210,9 +210,9 @@ python -m pytest -v
 Проверки Ruff и mypy:
 
 ```bash
-python -m ruff check src tests
-python -m ruff format --check src tests
-python -m mypy src tests
+python -m ruff check src
+python -m ruff format --check src
+python -m mypy src 
 ```
 
 Если нужно подключить проверки к коммитам, из корня Git-репозитория выполняется:
